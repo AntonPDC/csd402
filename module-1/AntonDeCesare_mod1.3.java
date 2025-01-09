@@ -11,5 +11,8 @@ class Main {
             double finalTemperature = myObj.nextDouble();
             System.out.println((water * (initialTemperature + finalTemperature)) * 4184);
         }
+        catch (Exception e) {
+            System.out.println("There was an error " + e);
+              }
+            }
     }
-}
