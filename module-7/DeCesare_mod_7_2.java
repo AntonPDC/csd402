@@ -1,3 +1,12 @@
+/*
+ *
+ * Anton DeCesare mod 7.2
+ * This is a program that creates a collection of created objects and prints them out for the user. It utilizes
+ * String builder to create the output string
+ *
+ */
+
+
 import java.util.ArrayList;
 import java.util.List;
 
