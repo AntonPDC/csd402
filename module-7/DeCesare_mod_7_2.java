@@ -39,9 +39,9 @@ public class DeCesare_mod_7_2 {
     // Method to display a collection of fans using StringBuilder
     public static String displayFans(List<Fan> fans) {
         StringBuilder sb = new StringBuilder();
-        for (Fan fan : fans) {
+        for (int i = 0; i < fans.size(); i++){
             sb.append("----------------------\n");
-            sb.append(displayFan(fan)).append("\n");
+            sb.append(displayFan(fans.get(i))).append("\n");
         }
         sb.append("----------------------\n");
         return sb.toString();
