@@ -1,3 +1,11 @@
+/*
+ * Anton DeCesare mod 9 assignment 2 program 2
+ * This program creates a new file, data.txt and gives it random numbers
+ * to hold and then displays the data.txt file
+ *
+ */
+
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;

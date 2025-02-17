@@ -1,3 +1,11 @@
+/*
+ * Anton DeCesare mod 9 assignment 2 program 1
+ * This program creates an ArrayList of "random" strings and displays them.
+ * It also allows the user to "revisit" an element in the ArrayList by entering an index
+ *
+ */
+
+
 import java.util.*;
 
 public class DeCesare_mod_9_2_Program1 {
